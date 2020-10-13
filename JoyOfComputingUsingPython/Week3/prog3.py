@@ -1,4 +1,4 @@
-list_1 = range(1, 51)
+list_1 = list(range(1, 51))
 a = int(input())
 list_1.remove(a)
 ans = 0

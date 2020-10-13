@@ -1,4 +1,4 @@
-list_1 = range(1, 51)
+list_1 = list(range(1, 51))
 a, b = map(int, input().split())
 ans = list_1[a:b]
 for item in ans:
